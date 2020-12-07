@@ -6,19 +6,19 @@ function backgroundyellow () { // eslint-disable-line no-unused-vars
 }
 
 function switchtext () {
-  var x = document.getElementById("myDIV")
-  if (x.innerHTML === "Hello") {
-    x.innerHTML = "Goodbye"
+  let x = document.getElementById('myDIV')
+  if (x.innerHTML === 'Hello') {
+    x.innerHTML = 'Goodbye'
   } else {
-    x.innerHTML = "Hello"
+    x.innerHTML = 'Hello'
   }
 }
 
 function HidingText () {
-  var x = document.getElementById("myDIV")
-  if (x.style.display === "none") {
-    x.style.display = "block"
+  let x = document.getElementById('myDIV')
+  if (x.style.display === 'none') {
+    x.style.display = 'block'
   } else {
-    x.style.display = "none"
+    x.style.display = 'none'
   }
 }
