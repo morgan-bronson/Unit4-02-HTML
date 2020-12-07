@@ -5,7 +5,7 @@ function backgroundyellow () { // eslint-disable-line no-unused-vars
   document.getElementById("paragraph").style.backgroundColor = "yellow";
 }
 
-function appeardisappear() {
+function switchtext() {
   var x = document.getElementById("myDIV");
   if (x.innerHTML === "Hello") {
     x.innerHTML = "Goodbye";
