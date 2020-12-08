@@ -6,7 +6,7 @@ function backgroundyellow () { // eslint-disable-line no-unused-vars
 }
 
 function hidingText () {
-  let x = document.getElementById('mydiv')
+  const x = document.getElementById('mydiv')
   if (x.style.display === 'none') {
     x.style.display = 'block'
   } else {
@@ -15,7 +15,7 @@ function hidingText () {
 }
 
 function switchText () {
-  let x = document.getElementById('mydiv1')
+  const x = document.getElementById('mydiv1')
   if (x.innerHTML === 'Hello') {
     x.innerHTML = 'Goodbye'
   } else {
